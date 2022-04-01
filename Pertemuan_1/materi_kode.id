@@ -26,3 +26,36 @@ print (n)
 a = b = c = 300
 print (a, b, c)
 
+var = 23.5
+print (var)
+var = 'Now I'm a string'
+print (var)
+
+name = 'Hactiv8'
+age = 54
+has_laptops = True
+print (name, age, has_laptops)
+
+a = 10
+b = 20
+print (a == b)
+print (a != b)
+print (a <= b)
+print (a >= b)
+
+a = 30
+b = 30
+print (a == b)
+print (a <= b)
+print (a >= b)
+
+s = 'foo'
+t = 'bar'
+u = 'baz'
+
+print (s + t)
+print (s + t + u)
+print ('Hactiv8' + 'PTP')
+
+s = 'foo'
+s*4
