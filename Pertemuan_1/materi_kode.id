@@ -77,4 +77,53 @@ print (a[5])
 print (a[-1])
 print (a[-6])
 
+a [2:5]
+print (a + ['grault', 'garply'])
+print (a * 2)
+print (len(a))
+print (min(a))
+print (max(a))
 
+a = ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
+
+print (a)
+a[2] = 10
+a[-1] = 20
+
+print (a)
+
+del a[3]
+print (a)
+
+a = ['foo', 'bar', 'baz', 'qux', 'quux', 'corge']
+print (a[1:4])
+a[1:4] = [1.1, 2.22, 3.3, 4.4, 5.5]
+print (a)
+
+t = ('foo', 'bar', 'baz', 'qux', 'quux', 'corge')
+print (t)
+
+print(t[0])
+print(t[-1])
+
+(s1, s2, s3, s4) = ('foo', 'bar', 'baz', 'qux')
+s1
+
+MLB_team = {
+  'Colorado' : 'Rockies',
+  'Boston' : 'Red Sox',
+  'Minnnesota' : 'Twins',
+  'Milwaukee' : 'Brewers',
+  'Seattle' : 'Mariners'
+  }
+  
+ print (MLB_team['Minnesota'])
+ print (MLB_team['Colorado'])
+  
+ MLB_team ['Kansas City'] = 'Royals'
+  
+ MLB_team ['Seattle'] = 'Seahawks' 
+ 
+ del MLB_team ['Seattle']
+ 
+ 
